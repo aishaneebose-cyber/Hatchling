@@ -8,14 +8,14 @@ NetController controller(false);
 // PIN DEFINITIONS (Update to match your wiring)
 // ==========================================
 // Left Drive Motor (Controls the 2 left wheels)
-const int LEFT_MOTOR_PWM = 14;
-const int LEFT_MOTOR_IN1 = 27;
-const int LEFT_MOTOR_IN2 = 26;
+const int LEFT_MOTOR_PWM = 14; //speed control
+const int LEFT_MOTOR_IN1 = 27; //pins for motor
+const int LEFT_MOTOR_IN2 = 26; //pin for motor
 
 // Right Drive Motor (Controls the 2 right wheels)
-const int RIGHT_MOTOR_PWM = 32;
-const int RIGHT_MOTOR_IN1 = 25;
-const int RIGHT_MOTOR_IN2 = 33;
+const int RIGHT_MOTOR_PWM = 32; //speed control
+const int RIGHT_MOTOR_IN1 = 25; //pins for motor
+const int RIGHT_MOTOR_IN2 = 33; //pins for motor
 
 // Elevator Pulley Motor (Spins rod/string up and down)
 const int ELEVATOR_PWM = 18;
@@ -23,6 +23,7 @@ const int ELEVATOR_IN1 = 19;
 const int ELEVATOR_IN2 = 21;
 
 // Claw Motor (Opens and closes the claw)
+// officer recommended using servo instead
 const int CLAW_PWM = 4;
 const int CLAW_IN1 = 16;
 const int CLAW_IN2 = 17;
