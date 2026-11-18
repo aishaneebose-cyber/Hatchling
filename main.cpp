@@ -9,13 +9,13 @@ NetController controller(false);
 // ==========================================
 // Left Drive Motor (Controls the 2 left wheels)
 const int LEFT_MOTOR_PWM = 14; //speed control
-const int LEFT_MOTOR_IN1 = 27; //pins for motor
-const int LEFT_MOTOR_IN2 = 26; //pin for motor
+const int LEFT_MOTOR_IN1 = 20; //pins for motor
+const int LEFT_MOTOR_IN2 = 21; //pin for motor
 
 // Right Drive Motor (Controls the 2 right wheels)
 const int RIGHT_MOTOR_PWM = 32; //speed control
-const int RIGHT_MOTOR_IN1 = 25; //pins for motor
-const int RIGHT_MOTOR_IN2 = 33; //pins for motor
+const int RIGHT_MOTOR_IN1 = 22; //pins for motor
+const int RIGHT_MOTOR_IN2 = 23; //pins for motor
 
 // Elevator Pulley Motor (Spins rod/string up and down)
 const int ELEVATOR_PWM = 18;
